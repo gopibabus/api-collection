@@ -1,0 +1,20 @@
+meta {
+  name: Movies
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://www.omdbapi.com/?s=batman&apikey=8efa4e65
+  body: none
+  auth: none
+}
+
+query {
+  s: batman
+  apikey: 8efa4e65
+}
+
+docs {
+  s=searchString
+}
