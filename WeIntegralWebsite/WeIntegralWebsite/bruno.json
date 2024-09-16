@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "WeIntegralWebsite",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
